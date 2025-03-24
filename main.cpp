@@ -30,5 +30,17 @@ int main()
 
 	cout << "10*¾ØÕómat2µÄ²âÊÔ£º" << endl;
 	Matrix mat3 = 10 * mat2;
-	cout << mat3;
+	cout << mat3 << endl;
+
+	cout << "¾ØÕó==ºÍ!=µÄ²âÊÔ£º" << endl;
+	if (mat1 == mat2)
+        cout << "mat1 == mat2" << endl;
+    else
+        cout << "mat1 != mat2" << endl;
+	cout << "Áîmat1=mat2" << endl;
+	mat1 = mat2;
+    if (mat1 != mat2)
+        cout << "mat1 != mat2" << endl;
+    else
+        cout << "mat1 == mat2" << endl;
 }
