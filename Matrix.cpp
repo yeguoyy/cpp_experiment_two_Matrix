@@ -1,8 +1,8 @@
-#include "Matrix.h"
+ï»¿#include "Matrix.h"
 
 Matrix::Matrix()
 {
-	//µ¥Î»¾ØÕó
+	//å•ä½çŸ©é˜µ
 	Mat[1][1] = 1;
 	Mat[1][2] = 0;
 	Mat[2][1] = 0;

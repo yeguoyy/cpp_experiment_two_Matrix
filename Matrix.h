@@ -6,6 +6,7 @@ class Matrix
 {
 	friend ostream& operator << (ostream&, const Matrix&);
 	friend istream& operator >> (istream&, Matrix&);
+
 	template <class T>
 	friend Matrix operator*(T, const Matrix&);
 private:
@@ -40,4 +41,5 @@ Matrix operator*(T k, const Matrix& mat)
 	}
 	return temp;
 }
+
 

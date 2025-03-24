@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "Matrix.h"
 using namespace std;
 
@@ -6,21 +6,21 @@ int main()
 {
 	Matrix mat1;
 	Matrix mat2;
-	cout << "ÀàÄ¬ÈÏÊä³ö²âÊÔ£º" << endl;
+	cout << "ç±»é»˜è®¤è¾“å‡ºæµ‹è¯•ï¼š" << endl;
 	cout << mat1;
-	cout << "ÇëÎªmat1¸³Öµ£º";
+	cout << "è¯·ä¸ºmat1èµ‹å€¼ï¼š";
 	cin >> mat1;
-	cout << "mat1¸³Öµ½á¹û²âÊÔ£º" << endl;
+	cout << "mat1èµ‹å€¼ç»“æžœæµ‹è¯•ï¼š" << endl;
 	cout << mat1;
 	cout << endl;
 
-	cout << "¾ØÕó¼Ó·¨¼õ·¨ºÍ³Ë·¨µÄ²âÊÔ£º" << endl;
+	cout << "çŸ©é˜µåŠ æ³•å‡æ³•å’Œä¹˜æ³•çš„æµ‹è¯•ï¼š" << endl;
 	cout << "mat1 + mat2=" << endl << mat1 + mat2;
 	cout << "mat1 - mat2=" << endl << mat1 - mat2;
 	cout << "mat1 * mat2=" << endl << mat1 * mat2;
 	cout << endl;
 
-	cout << "¾ØÕó+=¡¢-=ºÍ*=µÄ²âÊÔ£º" << endl;
+	cout << "çŸ©é˜µ+=ã€-=å’Œ*=çš„æµ‹è¯•ï¼š" << endl;
 	mat1 += mat2;
 	cout << mat1 << endl;
 	mat1 -= mat2;
@@ -28,16 +28,16 @@ int main()
 	mat1 *= mat2;
 	cout << mat1 << endl;
 
-	cout << "10*¾ØÕómat2µÄ²âÊÔ£º" << endl;
+	cout << "10*çŸ©é˜µmat2çš„æµ‹è¯•ï¼š" << endl;
 	Matrix mat3 = 10 * mat2;
 	cout << mat3 << endl;
 
-	cout << "¾ØÕó==ºÍ!=µÄ²âÊÔ£º" << endl;
+	cout << "çŸ©é˜µ==å’Œ!=çš„æµ‹è¯•ï¼š" << endl;
 	if (mat1 == mat2)
         cout << "mat1 == mat2" << endl;
     else
         cout << "mat1 != mat2" << endl;
-	cout << "Áîmat1=mat2" << endl;
+	cout << "ä»¤mat1=mat2" << endl;
 	mat1 = mat2;
     if (mat1 != mat2)
         cout << "mat1 != mat2" << endl;
